@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@theme {
+  --font-bartle: "BBH Bartle", sans-serif;
+}
