@@ -32,7 +32,7 @@ function FruitList() {
 
   return (
     <>
-      <div className="flex w-full bg-center bg-cover  text-cyan-50 bg-[url('./phill.jpg')] text-center justify-center items-center h-screen">
+      <div className="flex w-full bg-center bg-cover  text-cyan-50 bg-[url('/phill.jpg')] text-center justify-center items-center h-screen">
         <div className="border-none bg-white/10  backdrop-blur-sm grid grid-cols-4 grid-rows-4 border-2 w-[500px] h-[300px] rounded-2xl  ">
           <p className=" font-bartle  w-full text-center col-start-2 col-end-4  my-4">
             {" "}
