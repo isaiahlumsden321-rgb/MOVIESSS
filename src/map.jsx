@@ -23,7 +23,7 @@ function FruitList() {
   async function GetMovie() {
     navigate("/film");
     const movie1 = await axios.get(
-      `http://www.omdbapi.com/?type=series&t=${val}&apikey=837c298c`,
+      `https://www.omdbapi.com/?type=series&t=${val}&apikey=837c298c`,
     );
     const movieDetails = movie1.data;
     setMovie(movieDetails);
