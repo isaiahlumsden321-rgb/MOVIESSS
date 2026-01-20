@@ -19,7 +19,7 @@ export default function FilmPage() {
           <img
             src={movie.Poster}
             alt={movie.Title}
-            className=" object-cover w-auto sm:h-[230px] sm:ml-[50px] sm:mt-[30px] rounded-2xl row-start-3 col-start-2 sm:row-start-1 sm:row-end-2 sm:col-start-1 sm:col-end-2"
+            className=" pad object-cover w-auto sm:h-[230px] sm:ml-[50px] sm:mt-[30px] rounded-2xl row-start-3 col-start-2 sm:row-start-1 sm:row-end-2 sm:col-start-1 sm:col-end-2"
           />
         </div>
       </div>{" "}
